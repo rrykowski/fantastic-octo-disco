@@ -11,4 +11,5 @@
   <body>
     <%= yield %>
   </body>
+  <%= content_for(:footer) if content_for?(:footer) %>
 </html>
