@@ -1,0 +1,13 @@
+<h1>Rock, Paper, Scissors</h1>
+
+<div><%= link_to("New Game", new_games_rps_path) %>
+<span>Since this is the index of the RPS game, we will probably want to list all of the games that the server has saved here</span>
+<span>Each game in the list can then provide a link to the Show page where we can see how many rounds were played and what the current score is</span>
+<span>This page can also provide a link to play a new game which will take you to the new rps path</span>
+
+<div>
+  <ul>
+    <li><%= link_to("Game 1", games_rps_path(1)) %></li>
+    <li><%= link_to("Game 2", games_rps_path(2)) %></li>
+  </ul>
+</div>
