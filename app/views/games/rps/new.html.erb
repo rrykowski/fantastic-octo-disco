@@ -1,0 +1,10 @@
+<h1>Rock, Paper, Scissors</h1>
+
+<input type="button" val="Start Game" />
+<span>This is the page that we would want to hook our javascript into</span>
+<span>Use jQuery to add a handler to the click event of the Start Game button which can trigger the game to begin</span>
+
+
+<% content_for(:footer) do %>
+  <%= javascript_include_tag('games/rps.js') %>
+<% end %>
