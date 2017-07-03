@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <title>Play Rock, paper, Scissors</title>
+</head>
+<body>
+  <div class="jumbotron">
+    <h1 class="display-3">Welcome to Rock Paper Scissors!</h1>
+    <p class="lead">To begin, simply choose Rock, Paper, or Scissors below.</p>
+    <hr class="my-4">
+    <p class="lead">
+      <a id="rock" class="btn btn-primary btn-lg" href="#" role="button">Rock</a>
+      <a id="paper" class="btn btn-primary btn-lg" href="#" role="button">Paper</a>
+      <a id="scissors" class="btn btn-primary btn-lg" href="#" role="button">Scissors</a>
+      <a id="reset" class="btn btn-danger btn-lg float-right" href="#" role="button">Reset</a>
+    </p>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+    <div class="card">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Total Games Played: <span id="totalgames">0</span></li>
+        <li class="list-group-item">Player Points: <span id="playerscore">0</span></li>
+        <li class="list-group-item">Computer Points: <span id="computerscore">0</span></li>
+        <li class="list-group-item">Ties: <span id="tiegames"> 0</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm-6">
+  <div class="card">
+    <div class="card-block">
+      <h3 class="card-title">Game History</h3>
+      <p id="gamelog" class="card-text"></p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="app/assets/javascripts/games/rps.js"></script>
+</body>
+</html>
